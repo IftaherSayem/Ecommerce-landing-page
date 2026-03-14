@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Furniro – Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="icon" href="asset/shop.png">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="nav-logo">
+      <img src="asset/header-logo.png">
+      <span class="logo-text">Furniro</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#home"    class="nav-link active" data-section="home">Home</a>
+      <a href="#shop"    class="nav-link"        data-section="shop">Shop</a>
+      <a href="#about"   class="nav-link"        data-section="about">About</a>
+      <a href="#contact" class="nav-link"        data-section="contact">Contact</a>
+      <a href="#faq"     class="nav-link"        data-section="faq">FAQ</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="nav-action-btn"><i class="ri-user-line"></i><span class="action-badge">1</span></button>
+      <button class="nav-action-btn"><i class="ri-search-line"></i></button>
+      <button class="nav-action-btn"><i class="ri-heart-line"></i></button>
+      <button class="nav-action-btn"><i class="ri-shopping-cart-line"></i></button>
+    </div>
+  </header>
+
+  <!-- ===================================================
+       SECTION 1 – HOME / HERO
+  =================================================== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <img src="asset/hero-bg.png" alt="Elegant living room" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-card">
+      <p class="hero-eyebrow">New Arrival</p>
+      <h1 class="hero-title">Discover Our<br />New Collection</h1>
+      <p class="hero-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+      <a href="#shop" class="hero-btn">BUY NOW</a>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       SECTION 2 – SHOP
+       =================================================== -->
+  <section id="shop">
+
+    <!-- Banner -->
+    <div class="page-banner">
+      <p class="section-label" style="justify-content:center;display:flex;margin-bottom:6px;">Our Products</p>
+      <h2>Explore Our Shop</h2>
+      <p class="breadcrumb" style="margin-top:10px;"><a href="#home">Home</a> <i class="ri-arrow-right-s-line"></i> <span>Shop</span></p>
+    </div>
+
+    <div class="shop-main-full">
+        <div class="product-grid">
+          <!-- Card 1 -->
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <span class="product-badge badge-new">New</span>
+              <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80" alt="Sylvan Sofa" />
+              <div class="product-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <div class="action-icons">
+                  <button><i class="ri-share-line"></i></button>
+                  <button><i class="ri-heart-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Sofa</p>
+              <h3 class="product-name">Sylvan 3-Seat Sofa</h3>
+              <div class="product-price"><span class="price-current">$1,299</span></div>
+              <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(48)</span></div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <span class="product-badge badge-sale">-20%</span>
+              <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80" alt="Rattan Chair" />
+              <div class="product-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <div class="action-icons">
+                  <button><i class="ri-share-line"></i></button>
+                  <button><i class="ri-heart-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Chair</p>
+              <h3 class="product-name">Drift Rattan Chair</h3>
+              <div class="product-price"><span class="price-current">$319</span><span class="price-old">$399</span></div>
+              <div class="product-rating"><span class="stars">★★★★</span>☆<span class="rating-count">(31)</span></div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=80" alt="Side Table" />
+              <div class="product-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <div class="action-icons">
+                  <button><i class="ri-share-line"></i></button>
+                  <button><i class="ri-heart-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Table</p>
+              <h3 class="product-name">Orbit Side Table</h3>
+              <div class="product-price"><span class="price-current">$249</span></div>
+              <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(62)</span></div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <span class="product-badge badge-new">New</span>
+              <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=600&q=80" alt="Bookshelf" />
+              <div class="product-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <div class="action-icons">
+                  <button><i class="ri-share-line"></i></button>
+                  <button><i class="ri-heart-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Storage</p>
+              <h3 class="product-name">Grove Bookshelf</h3>
+              <div class="product-price"><span class="price-current">$549</span></div>
+              <div class="product-rating"><span class="stars">★★★★</span>☆<span class="rating-count">(27)</span></div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <span class="product-badge badge-sale">-15%</span>
+              <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=600&q=80" alt="Armchair" />
+              <div class="product-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <div class="action-icons">
+                  <button><i class="ri-share-line"></i></button>
+                  <button><i class="ri-heart-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Chair</p>
+              <h3 class="product-name">Haven Armchair</h3>
+              <div class="product-price"><span class="price-current">$509</span><span class="price-old">$599</span></div>
+              <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(89)</span></div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=600&q=80" alt="Dining Table" />
+              <div class="product-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <div class="action-icons">
+                  <button><i class="ri-share-line"></i></button>
+                  <button><i class="ri-heart-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Dining</p>
+              <h3 class="product-name">Timber Dining Table</h3>
+              <div class="product-price"><span class="price-current">$879</span></div>
+              <div class="product-rating"><span class="stars">★★★★</span>☆<span class="rating-count">(43)</span></div>
+            </div>
+          </div>
+          <!-- Card 7 -->
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <span class="product-badge badge-new">New</span>
+              <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600&q=80" alt="Floor Lamp" />
+              <div class="product-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <div class="action-icons">
+                  <button><i class="ri-share-line"></i></button>
+                  <button><i class="ri-heart-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Lighting</p>
+              <h3 class="product-name">Arc Floor Lamp</h3>
+              <div class="product-price"><span class="price-current">$199</span></div>
+              <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(55)</span></div>
+            </div>
+          </div>
+          <!-- Card 8 -->
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <img src="https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80" alt="Bed Frame" />
+              <div class="product-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <div class="action-icons">
+                  <button><i class="ri-share-line"></i></button>
+                  <button><i class="ri-heart-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Bedroom</p>
+              <h3 class="product-name">Luno King Bed Frame</h3>
+              <div class="product-price"><span class="price-current">$1,049</span></div>
+              <div class="product-rating"><span class="stars">★★★★</span>☆<span class="rating-count">(36)</span></div>
+            </div>
+          </div>
+          <!-- Card 9 -->
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <span class="product-badge badge-sale">-25%</span>
+              <img src="https://images.unsplash.com/photo-1592078615290-033ee584e267?w=600&q=80" alt="Coffee Table" />
+              <div class="product-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+                <div class="action-icons">
+                  <button><i class="ri-share-line"></i></button>
+                  <button><i class="ri-heart-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Table</p>
+              <h3 class="product-name">Stone Coffee Table</h3>
+              <div class="product-price"><span class="price-current">$374</span><span class="price-old">$499</span></div>
+              <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(71)</span></div>
+            </div>
+          </div>
+        </div><!-- end product-grid -->
+
+        <div class="shop-pagination">
+          <button class="page-btn active">1</button>
+          <button class="page-btn">2</button>
+          <button class="page-btn">3</button>
+          <button class="page-btn"><i class="ri-arrow-right-s-line"></i></button>
+        </div>
+    </div><!-- end shop-main-full -->
+  </section>
+
+  <!-- ===================================================
+       SECTION 3 – ABOUT
+       =================================================== -->
+  <section id="about">
+    <div class="page-banner">
+      <p class="section-label" style="justify-content:center;display:flex;margin-bottom:6px;">Who We Are</p>
+      <h2>About Furniro</h2>
+      <p class="breadcrumb" style="margin-top:10px;"><a href="#home">Home</a> <i class="ri-arrow-right-s-line"></i> <span>About</span></p>
+    </div>
+
+    <!-- Story -->
+    <div class="about-story">
+      <div class="story-text">
+        <p class="section-label">Our Story</p>
+        <h2 class="section-title">Furniture Born from<br />a Love of Craft</h2>
+        <p>Furniro was founded in 2008 by two furniture restorers who believed the world deserved pieces designed to last — not just for a season, but for a lifetime. What began as a small workshop in Porto has grown into a globally recognised brand, yet our soul remains rooted in that same workshop philosophy.</p>
+        <p>Every piece is the result of close collaboration between our in-house designers and the skilled artisans who bring them to life. We source only sustainably certified wood, ethically produced fabrics, and responsibly mined metals.</p>
+        <a href="#shop" class="btn-gold" style="margin-top:16px;">Explore Our Collection <i class="ri-arrow-right-line"></i></a>
+      </div>
+      <div class="story-img-wrap">
+        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=900&q=80" alt="Craftsmanship" />
+        <div class="story-img-badge">
+          <span class="big-num">15+</span>
+          <span class="big-text">Years of Craft</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="about-stats">
+      <div class="stat-item"><div class="stat-num">40+</div><div class="stat-label">Countries Served</div></div>
+      <div class="stat-item"><div class="stat-num">850+</div><div class="stat-label">Unique Products</div></div>
+      <div class="stat-item"><div class="stat-num">120K</div><div class="stat-label">Happy Customers</div></div>
+      <div class="stat-item"><div class="stat-num">98%</div><div class="stat-label">Satisfaction Rate</div></div>
+    </div>
+
+    <!-- Values -->
+    <div class="about-values">
+      <div class="section-header">
+        <p class="section-label">What We Stand For</p>
+        <h2 class="section-title">Our Core Values</h2>
+        <p class="section-desc">Everything we do is guided by a commitment to craft, people, and the planet.</p>
+      </div>
+      <div class="values-grid">
+        <div class="value-card"><div class="value-icon"><i class="ri-leaf-line"></i></div><h3>Sustainability</h3><p>FSC-certified wood, water-based finishes, and fully recyclable packaging. Our factories run on 100% renewable energy by 2026.</p></div>
+        <div class="value-card"><div class="value-icon"><i class="ri-tools-line"></i></div><h3>Master Craftsmanship</h3><p>Each piece is shaped and finished by hand. Our artisans average over 12 years of experience and sign every item they complete.</p></div>
+        <div class="value-card"><div class="value-icon"><i class="ri-timer-line"></i></div><h3>Built to Last</h3><p>We offer a 10-year structural guarantee. If it breaks under normal use, we repair or replace it — no questions asked.</p></div>
+        <div class="value-card"><div class="value-icon"><i class="ri-user-heart-line"></i></div><h3>Customer First</h3><p>Our dedicated team is available 7 days a week with free in-home design consultations in all major cities we deliver to.</p></div>
+        <div class="value-card"><div class="value-icon"><i class="ri-global-line"></i></div><h3>Fair Trade</h3><p>We partner only with suppliers who pay fair wages and maintain safe working conditions, verified by independent annual audits.</p></div>
+        <div class="value-card"><div class="value-icon"><i class="ri-palette-line"></i></div><h3>Timeless Design</h3><p>We reject fast-furniture trends. Every collection is designed to age gracefully and fit naturally into any interior for decades.</p></div>
+      </div>
+    </div>
+
+    <!-- Team -->
+    <div class="about-team">
+      <div class="section-header">
+        <p class="section-label">The People Behind Furniro</p>
+        <h2 class="section-title">Meet Our Team</h2>
+        <p class="section-desc" style="margin:14px auto 0;">A passionate group of designers, craftspeople, and dreamers.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Luca" />
+            <div class="team-social-overlay">
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </div>
+          </div>
+          <div class="team-info"><h3>Luca Ferreira</h3><p>Co-Founder & CEO</p></div>
+        </div>
+        <div class="team-card">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80" alt="Sofia" />
+            <div class="team-social-overlay">
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </div>
+          </div>
+          <div class="team-info"><h3>Sofia Andrade</h3><p>Head of Design</p></div>
+        </div>
+        <div class="team-card">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" alt="Marco" />
+            <div class="team-social-overlay">
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+              <a href="#"><i class="ri-twitter-x-line"></i></a>
+            </div>
+          </div>
+          <div class="team-info"><h3>Marco Ribeiro</h3><p>Master Craftsman</p></div>
+        </div>
+        <div class="team-card">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80" alt="Elena" />
+            <div class="team-social-overlay">
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </div>
+          </div>
+          <div class="team-info"><h3>Elena Costa</h3><p>Customer Experience</p></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ===================================================
+       SECTION 4 – CONTACT
+       =================================================== -->
+  <section id="contact">
+    <div class="page-banner">
+      <p class="section-label" style="justify-content:center;display:flex;margin-bottom:6px;">Reach Out</p>
+      <h2>Contact Us</h2>
+      <p class="breadcrumb" style="margin-top:10px;"><a href="#home">Home</a> <i class="ri-arrow-right-s-line"></i> <span>Contact</span></p>
+    </div>
+
+    <div class="contact-layout">
+      <!-- Info Panel -->
+      <div class="contact-info-panel">
+        <p class="section-label">Get In Touch</p>
+        <h2 class="section-title">We'd Love to<br />Hear from You</h2>
+        <p>Whether you have a question about a product, need help with an order, or want to book a free in-home design consultation — our team is here to help, seven days a week.</p>
+        <div class="contact-info-items">
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="ri-map-pin-2-line"></i></div>
+            <div class="contact-info-content"><h4>Our Showroom</h4><p>Rua das Flores, 24<br />Porto, 4050-262, Portugal</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="ri-phone-line"></i></div>
+            <div class="contact-info-content"><h4>Call Us</h4><p>+351 22 000 1234<br />Mon – Sat, 9am – 6pm</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="ri-mail-send-line"></i></div>
+            <div class="contact-info-content"><h4>Email Us</h4><p>hello@furniro.com<br />We reply within 24 hours</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="ri-time-line"></i></div>
+            <div class="contact-info-content"><h4>Opening Hours</h4><p>Mon – Fri: 9:00 am – 7:00 pm<br />Sat – Sun: 10:00 am – 5:00 pm</p></div>
+          </div>
+        </div>
+        <div class="contact-socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-twitter-x-line"></i></a>
+          <a href="#"><i class="ri-pinterest-line"></i></a>
+          <a href="#"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+
+      <!-- Form Panel -->
+      <div class="contact-form-panel">
+        <p class="section-label">Send a Message</p>
+        <h2 class="section-title">How Can We Help?</h2>
+        <p>Fill in the form below and a member of our team will get back to you as soon as possible.</p>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group"><label>First Name</label><input type="text" placeholder="e.g. Maria" required /></div>
+            <div class="form-group"><label>Last Name</label><input type="text" placeholder="e.g. Santos" required /></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Email Address</label><input type="email" placeholder="maria@example.com" required /></div>
+            <div class="form-group"><label>Phone (Optional)</label><input type="tel" placeholder="+351 9XX XXX XXX" /></div>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <select>
+              <option value="">Select a topic…</option>
+              <option>Product Enquiry</option>
+              <option>Order Status</option>
+              <option>Return / Exchange</option>
+              <option>Design Consultation</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group"><label>Your Message</label><textarea placeholder="Tell us how we can help…" required></textarea></div>
+          <div class="form-group" style="flex-direction:row;align-items:center;gap:10px;">
+            <input type="checkbox" style="accent-color:var(--clr-gold);width:16px;height:16px;flex-shrink:0;" required />
+            <label style="font-family:var(--font-body);font-size:0.82rem;color:var(--clr-text-muted);text-transform:none;letter-spacing:0;font-weight:400;">I agree to Furniro's <a href="#" style="color:var(--clr-gold);font-weight:600;">Privacy Policy</a>.</label>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="btn-gold">Send Message <i class="ri-send-plane-line"></i></button>
+          </div>
+          <div id="form-success" style="display:none;background:#F0FAF4;border:1px solid #6EBF8B;border-radius:8px;padding:16px 20px;font-family:var(--font-main);font-size:0.9rem;color:#2E7D52;margin-top:4px;">
+            <i class="ri-checkbox-circle-line" style="font-size:1.1rem;vertical-align:-2px;margin-right:6px;"></i>
+            Thank you! Your message has been sent. We'll be in touch within 24 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div id="faq" class="contact-faq" style="scroll-margin-top:var(--nav-height)">
+      <div class="section-header">
+        <p class="section-label">Frequently Asked</p>
+        <h2 class="section-title">Quick Answers</h2>
+        <p class="section-desc" style="margin:14px auto 0;">Everything you need to know before reaching out.</p>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-item"><div class="faq-question">How long does delivery take? <i class="ri-add-circle-line faq-icon"></i></div><p class="faq-answer">Standard delivery takes 5–10 business days within Europe. Large items are delivered by our white-glove team who will also assemble the piece.</p></div>
+        <div class="faq-item"><div class="faq-question">What is your return policy? <i class="ri-add-circle-line faq-icon"></i></div><p class="faq-answer">We offer a 30-day hassle-free returns window. Items must be in original condition. We arrange free collection at a time that suits you.</p></div>
+        <div class="faq-item"><div class="faq-question">Do you offer custom sizing? <i class="ri-add-circle-line faq-icon"></i></div><p class="faq-answer">Yes! Most pieces can be made to measure. Visit our showroom or contact us. Lead time for custom orders is 4–6 weeks.</p></div>
+        <div class="faq-item"><div class="faq-question">Are your products sustainably sourced? <i class="ri-add-circle-line faq-icon"></i></div><p class="faq-answer">All wood is FSC-certified, fabrics are OEKO-TEX® Standard 100 certified, and our packaging is 100% recyclable and plastic-free.</p></div>
+        <div class="faq-item"><div class="faq-question">Do you ship internationally? <i class="ri-add-circle-line faq-icon"></i></div><p class="faq-answer">We ship to over 40 countries worldwide. Shipping rates and delivery times are calculated at checkout based on your location.</p></div>
+        <div class="faq-item"><div class="faq-question">How do I track my order? <i class="ri-add-circle-line faq-icon"></i></div><p class="faq-answer">Once dispatched, you'll receive a tracking link by email. You can also log into your account for real-time delivery updates.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <img src="asset/header-logo.png">
+          <span class="logo-text">Furniro</span>
+        </div>
+        <p class="footer-tagline">Crafting beautiful spaces through timeless furniture design and sustainable materials.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#contact">Payment Options</a></li>
+          <li><a href="#contact">Returns</a></li>
+          <li><a href="#contact">Privacy Policy</a></li>
+          <li><a href="#contact">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <p style="font-size:0.875rem;color:rgba(255,255,255,0.55);margin-bottom:14px;line-height:1.6;">Get updates on new collections and exclusive offers.</p>
+        <div style="display:flex;">
+          <input type="email" placeholder="Your email" style="flex:1;padding:10px 14px;border:1px solid rgba(255,255,255,0.15);background:rgba(255,255,255,0.07);color:#fff;border-radius:6px 0 0 6px;font-family:var(--font-body);font-size:0.85rem;outline:none;" />
+          <button style="background:var(--clr-gold);color:#fff;padding:10px 16px;border-radius:0 6px 6px 0;font-family:var(--font-main);font-weight:700;font-size:0.8rem;">Go</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Furniro. All rights reserved.</span>
+      <div class="footer-social">
+        <a href="#"><i class="ri-facebook-fill"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-twitter-x-line"></i></a>
+        <a href="#"><i class="ri-pinterest-line"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

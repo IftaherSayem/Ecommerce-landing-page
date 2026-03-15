@@ -1,2 +1,2 @@
 🌐 Live Demo : 
-https://iftahersayem.ami.bd/Ecommerce-landing-page/#faq
+https://iftahersayem.ami.bd/Ecommerce-landing-page/

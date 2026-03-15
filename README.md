@@ -36,7 +36,6 @@ https://iftahersayem.ami.bd/Ecommerce-landing-page/
 
 * HTML5
 * CSS3
-* JavaScript
 
 ---
 
@@ -46,21 +45,8 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/USERNAME/Ecommerce-landing-page.git
-```
-
-Open the project:
-
-```
 cd Ecommerce-landing-page
 ```
-
-Run the project by opening:
-
-```
-index.html
-```
-
----
 
 ## 👨‍💻 Author
 

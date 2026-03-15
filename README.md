@@ -4,13 +4,7 @@ A clean and modern **Ecommerce Landing Page** designed to showcase products with
 
 ---
 
-## 🌐 Live Demo
-
-🔗 Visit the website:
-https://iftahersayem.ami.bd/Ecommerce-landing-page/
-
----
-
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://iftahersayem.ami.bd/Ecommerce-landing-page/)
 ## 📸 Preview
 
 ![Ecommerce Landing Page](asset/preview1.png)

@@ -39,7 +39,7 @@ body {
 }
 a   { text-decoration: none; color: inherit; }
 button { cursor: pointer; border: none; background: none; font-family: var(--font-main); }
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: 50px;}
 ul  { list-style: none; }
 
 /* ── Offset sections so sticky nav doesn't cover them ── */
